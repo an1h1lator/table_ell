@@ -1,16 +1,30 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="utf-8">
-        <title>table</title>
-    </head>
-    <body>
-        <table>
-            <thead>
-                <th>
-                    <td>First col</td>
-                </th>
-            </thead>
-        </table>
-    </body>
+
+<head>
+    <meta charset="utf-8">
+    <title>table</title>
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./css/main.css">
+</head>
+
+<body>
+    <table class="t">
+        <thead>
+            <th>First col</th>
+            <th class="t__th-td-slide td--hidden">Second col</th>
+            <td>Third data</td>
+        </thead>
+        <tbody>
+            <tr>
+                <td>first data</td>
+                <td class="t__th-td-slide td--hidden">S data</td>
+                <td>Third data</td>
+            </tr>
+        </tbody>
+    </table>
+    <button class="slide">slide</button>
+    <script src="./js/main.js" charset="utf-8"></script>
+</body>
+
 </html>
