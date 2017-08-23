@@ -9,22 +9,105 @@
 </head>
 
 <body>
-    <table class="t">
-        <thead>
-            <th>First col</th>
-            <th class="t__th-td-slide td--hidden">Second col</th>
-            <td>Third data</td>
-        </thead>
-        <tbody>
-            <tr>
-                <td>first data</td>
-                <td class="t__th-td-slide td--hidden">S data</td>
-                <td>Third data</td>
-            </tr>
-        </tbody>
-    </table>
-    <button class="slide">slide</button>
-    <script src="./js/main.js" charset="utf-8"></script>
+    <table width="100%" class="mdl-data-table" id="simple_table" cellspacing="0" simple_table="SimpleTable5">
+  <thead>
+    <tr>
+      <th style="width: auto;">Param1</th>
+      <th style="width: auto;">Param2</th>
+      <th style="width: auto;">Param3</th>
+      <th style="width: auto;">Param4</th>
+      <th style="width: auto;">Param5</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr id="0">
+      <td shortname="param1" fullname="local.taskResults[index].param1">
+        <div>Продукт</div>
+      </td>
+      <td shortname="param2" fullname="local.taskResults[index].param2">
+        <div>этап Холодный звонок</div>
+      </td>
+      <td shortname="param3" fullname="local.taskResults[index].param3">
+        <div>этап Переговоры</div>
+      </td>
+      <td shortname="param4" fullname="local.taskResults[index].param4">
+        <div>этап Рассмотрение</div>
+      </td>
+      <td shortname="param5" fullname="local.taskResults[index].param5">
+        <div>Фактический объем</div>
+      </td>
+    </tr>
+    <tr id="1">
+      <td shortname="param1" fullname="local.taskResults[index].param1">
+        <div>Кредит (руб.)</div>
+      </td>
+      <td shortname="param2" fullname="local.taskResults[index].param2">
+        <div>0</div>
+      </td>
+      <td shortname="param3" fullname="local.taskResults[index].param3">
+        <div> 10 000 000.00 руб.</div>
+      </td>
+      <td shortname="param4" fullname="local.taskResults[index].param4">
+        <div>0</div>
+      </td>
+      <td shortname="param5" fullname="local.taskResults[index].param5">
+        <div>0</div>
+      </td>
+    </tr>
+    <tr class="selected" id="2">
+      <td shortname="param1" fullname="local.taskResults[index].param1">
+        <div>Депозит (руб.)</div>
+      </td>
+      <td shortname="param2" fullname="local.taskResults[index].param2">
+        <div>0</div>
+      </td>
+      <td shortname="param3" fullname="local.taskResults[index].param3">
+        <div> .00 руб.</div>
+      </td>
+      <td shortname="param4" fullname="local.taskResults[index].param4">
+        <div>0</div>
+      </td>
+      <td shortname="param5" fullname="local.taskResults[index].param5">
+        <div>0</div>
+      </td>
+    </tr>
+    <tr id="3">
+      <td shortname="param1" fullname="local.taskResults[index].param1">
+        <div>РКО (шт.)</div>
+      </td>
+      <td shortname="param2" fullname="local.taskResults[index].param2">
+        <div>0</div>
+      </td>
+      <td shortname="param3" fullname="local.taskResults[index].param3">
+        <div>2</div>
+      </td>
+      <td shortname="param4" fullname="local.taskResults[index].param4">
+        <div>0</div>
+      </td>
+      <td shortname="param5" fullname="local.taskResults[index].param5">
+        <div>0</div>
+      </td>
+    </tr>
+    <tr id="4">
+      <td shortname="param1" fullname="local.taskResults[index].param1">
+        <div>Зарплатный проект (кол-во карт)</div>
+      </td>
+      <td shortname="param2" fullname="local.taskResults[index].param2">
+        <div>0</div>
+      </td>
+      <td shortname="param3" fullname="local.taskResults[index].param3">
+        <div>50</div>
+      </td>
+      <td shortname="param4" fullname="local.taskResults[index].param4">
+        <div>0</div>
+      </td>
+      <td shortname="param5" fullname="local.taskResults[index].param5">
+        <div>0</div>
+      </td>
+    </tr>
+  </tbody>
+</table>
+<script src="js/main.js"></script>
 </body>
 
 </html>
